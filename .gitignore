@@ -9,8 +9,11 @@
 
 # Hyprland
 
+!hypr
 !hypr/*
+!shikane
 !shikane/*
+!waybar
 !waybar/*
+!swaylock
 !swaylock/*
-
