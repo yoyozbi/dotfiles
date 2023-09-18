@@ -13,9 +13,10 @@
         "format": "{}"
     },
 
-    "wlr/workspaces": {
-        "disable-scroll": true,
-        "all-outputs": true,
+    "hyprland/workspaces": {
+        // "disable-scroll": true,
+        // "all-outputs": true,
+				"sort-by-number": true,
         "on-click": "activate",
         "persistent_workspaces": {
             "1": [],
@@ -30,7 +31,7 @@
             "10": []
         }
     },
-    
+
    "custom/weather" : {
         //shows the current weather and forecast
         "tooltip" : true,
