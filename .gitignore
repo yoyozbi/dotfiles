@@ -1,0 +1,16 @@
+# Ignore everything
+/*
+
+# Git
+!.gitignore
+!README.md
+!.gitmodules
+!LICENSE
+
+# Hyprland
+
+!hypr/*
+!shikane/*
+!waybar/*
+!swaylock/*
+
