@@ -17,3 +17,5 @@
 !waybar/*
 !swaylock
 !swaylock/*
+!nvim
+!nvim/*
