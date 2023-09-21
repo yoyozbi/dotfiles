@@ -19,5 +19,7 @@
 !swaylock/*
 !nvim
 !nvim/*
+
 !tmux
 !tmux/*
+tmux/plugins/*
