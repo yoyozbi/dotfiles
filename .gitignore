@@ -11,14 +11,24 @@
 
 !hypr
 !hypr/*
+
 !shikane
 !shikane/*
+
 !waybar
 !waybar/*
+
 !swaylock
 !swaylock/*
+
 !nvim
 !nvim/*
+
+!wlogout
+!wlogout/*
+
+!wofi
+!wofi/*
 
 !tmux
 !tmux/*
