@@ -32,6 +32,11 @@ elif action == "close":
     raw = subprocess.check_output(["hyprctl", "monitors", "-j"]).decode("utf-8")
     print(raw)
     parsed = json.loads(raw)
+
+    if len(parsed) <= 1:
+        subprocess.check_output(["systemctl", "hibernate"]).decode("utf-8")
+        exit(0)
+
     main = find_integrated_screen(parsed)
 
     string = json_screen_to_string(main)
