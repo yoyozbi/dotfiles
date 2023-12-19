@@ -24,7 +24,24 @@ exec = ["notify-send shikane \"Profile $SHIKANE_PROFILE_NAME has been applied\""
 	position = { x = 1080, y = 1440 }
 	scale = 1
 
+[[profile]]
+name = "docked no screen"
+exec = ["notify-send shikane \"Profile $SHIKANE_PROFILE_NAME has been applied\""]
+	[[profile.output]]
+	match = "/L7LMDW002550/"
+ 	exec = ["echo This is output $SHIKANE_OUTPUT_NAME"]
+	enable = true
+	mode = { width = 2560, height = 1440, refresh = 165 }
+	position = { x = 1080, y = 0}
 
+	[[profile.output]]
+	match = "/2260WG5/"
+ 	exec = ["echo This is output $SHIKANE_OUTPUT_NAME"]
+	enable = true
+	mode = { width = 1920, height = 1080, refresh = 60 }
+	position = { x = 0, y = 0 }
+	transform = "270"
+	
 [[profile]]
 name = "internal"
 exec = ["notify-send shikane \"Profile $SHIKANE_PROFILE_NAME has been applied\""]
