@@ -52,3 +52,19 @@ exec = ["notify-send shikane \"Profile $SHIKANE_PROFILE_NAME has been applied\""
 	position = { x = 0, y = 0 }
 	scale = 1
 
+[[profile]]
+name = "external screen"
+exec = ["notify-send shikane \"Profile $SHIKANE_PROFILE_NAME has been applied\""]
+    [[profile.output]]
+    match = "eDP-1"
+    enable = true
+    mode = {width = 1920, height = 1200, refresh = 60}
+    position = {x = 1080, y = 1440}
+    scale = 1
+
+    [[profile.output]]
+    match = "DELL P2720D"
+    enable = true
+    mode = {width = 2560, height = 1440, refresh = 60}
+    position = {x = 0, y = 0}
+    scale = 1
