@@ -5,7 +5,7 @@ exec = ["notify-send shikane \"Profile $SHIKANE_PROFILE_NAME has been applied\""
 	match = "/L7LMDW002550/"
  	exec = ["echo This is output $SHIKANE_OUTPUT_NAME"]
 	enable = true
-	mode = { width = 2560, height = 1440, refresh = 165 }
+	mode = { width = 2560, height = 1440, refresh = 144 }
 	position = { x = 1080, y = 0}
 
 	[[profile.output]]
@@ -31,7 +31,7 @@ exec = ["notify-send shikane \"Profile $SHIKANE_PROFILE_NAME has been applied\""
 	match = "/L7LMDW002550/"
  	exec = ["echo This is output $SHIKANE_OUTPUT_NAME"]
 	enable = true
-	mode = { width = 2560, height = 1440, refresh = 165 }
+	mode = { width = 2560, height = 1440, refresh = 144 }
 	position = { x = 1080, y = 0}
 
 	[[profile.output]]
