@@ -38,7 +38,7 @@ elif action == "close":
     parsed = json.loads(raw)
 
     if len(parsed) <= 1:
-        subprocess.check_output(["systemctl", "hibernate"]).decode("utf-8")
+        #subprocess.check_output(["systemctl", "hibernate"]).decode("utf-8")
         exit(0)
 
     main = find_integrated_screen(parsed)
