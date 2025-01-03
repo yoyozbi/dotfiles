@@ -33,3 +33,6 @@
 !tmux
 !tmux/*
 tmux/plugins/*
+
+!ghostty
+
